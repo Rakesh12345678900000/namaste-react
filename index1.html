@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World Using JS</title>
+</head>
+<body>
+     
+    <div id="root">
+
+    </div>
+    <script>
+        const heading = document.createElement('h1')
+        heading.innerHTML='Hello World'
+        
+        //now we have to append this child to it parent root 
+
+        const root = document.getElementById('root')
+        root.appendChild(heading)
+        
+    </script>
+</body>
+</html>
